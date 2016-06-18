@@ -3,7 +3,8 @@ NewsFocus contains - News focus service( WcfService3 and WebApplication1 - GUI T
 
 ###Description: 
 Find news about specific topics.
-Operation: string[] NewsFocus(string[] topics)
+
+Operation: string[ ] NewsFocus(string[ ] topics)
 
 Input: a list of topics or key words ( No validation in case of bloacked web sites or null input ) 
 
